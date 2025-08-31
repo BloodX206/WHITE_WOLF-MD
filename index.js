@@ -120,8 +120,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there HISSARI-BACHA-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BarbieX-MD WhatsApp Bot.\n\n *Thanks for using HISSARI-BACHA-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb6Qyym7YSd3VRCxxQ1B \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/hissari-bacha/Hissari-Bacha.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ HISSARI-BACHA-MD Official ❣️ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/qeq0cg.jpg` }, caption: up })
+  let up = `*Hello there WHITE_WOLF-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BarbieX-MD WhatsApp Bot.\n\n *Thanks for using WHITE_WOLF-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \https://whatsapp.com/channel/0029Vb6RhkO5K3zXBI56rZ0I \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/BloodX206/WHITE_WOLF-MD.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ WHITE_WOLF-MD Official ❣️ \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/5t7iav.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
